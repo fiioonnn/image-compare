@@ -4,17 +4,29 @@
     {
       "name" : "Process All Remaining Files and Folders",
       "stepType" : 1,
-      "uuidString" : "B8FFD352-31D9-41E1-B7C1-AF2C3EABBC68"
+      "uuidString" : "DACA6B7F-64B9-43FF-BBA0-6BBFEB78A142"
     }
   ],
   "creatorBuild" : "34448",
   "files" : {
-    "\/dist\/example-after.jpg" : {
+    "\/dist\/assets\/css\/imageCompare.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/assets\/css\/imageCompare-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/dist\/assets\/img\/example-after.jpg" : {
       "ft" : 16384,
       "iS" : 300777,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/example-after.jpg",
+      "oAP" : "\/dist\/assets\/img\/example-after.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -22,18 +34,40 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/dist\/example-before.jpg" : {
+    "\/dist\/assets\/img\/example-before.jpg" : {
       "ft" : 16384,
       "iS" : 103809,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/example-before.jpg",
+      "oAP" : "\/dist\/assets\/img\/example-before.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
+    },
+    "\/dist\/assets\/js\/lib\/imageCompare.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/dist\/assets\/js\/lib\/imageCompare-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/dist\/assets\/js\/main.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/dist\/assets\/js\/main-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
     },
     "\/dist\/index.html" : {
       "cB" : 0,
@@ -42,48 +76,6 @@
       "oA" : 0,
       "oAP" : "\/dist\/index.html",
       "oF" : 0
-    },
-    "\/dist\/main.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/dist\/main-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
-    "\/dist\/source.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 1,
-      "oAP" : "\/dist\/source-min.js",
-      "oF" : 1,
-      "sC" : 3,
-      "tS" : 0
-    },
-    "\/README.md" : {
-      "cB" : 0,
-      "cS" : 0,
-      "eF" : 1,
-      "eL" : 1,
-      "ema" : 1,
-      "eSQ" : 1,
-      "ft" : 4096,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/README.html",
-      "oF" : 0,
-      "oFM" : 0,
-      "oS" : 0,
-      "pHT" : 0,
-      "pME" : 1,
-      "rFN" : 0,
-      "uCM" : 0
     },
     "\/src\/main.scss" : {
       "aP" : 0,
@@ -94,11 +86,22 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/main.css",
-      "oF" : 2,
+      "oAP" : "\/src\/main.css",
+      "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
+    },
+    "\/src\/source.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/src\/source-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
     }
   },
   "hooks" : [
@@ -108,10 +111,10 @@
 
   },
   "projectAttributes" : {
-    "creationDate" : 698685285.76127899,
-    "displayValue" : "image-compare",
+    "creationDate" : 698757609.54898095,
+    "displayValue" : "image-compare-new",
     "displayValueWasSetByUser" : 0,
-    "iconImageName" : "brackets-red",
+    "iconImageName" : "brackets-peach",
     "iconImageWasSetByUser" : 0
   },
   "projectSettings" : {

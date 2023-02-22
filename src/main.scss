@@ -6,11 +6,14 @@
 
 $imgc-min-height: 600px;
 $imgc-thumb-background: #0095ff;
-$imgc-tag-background: rgba(#000, 0.3);
-$imgc-tag-color: #fff;
 $imgc-timing-function: cubic-bezier(0.47, 1.64, 0.41, 0.8);
 $imgc-font-family: "inherit";
 $imgc-svg-fill-color: #fff;
+
+$imgc-tag-background: #0095ff;
+$imgc-tag-color: #fff;
+$imgc-tag-before: "Before";
+$imgc-tag-after: "After";
 
 /*
 	Main CSS
@@ -35,13 +38,12 @@ $imgc-svg-fill-color: #fff;
 		inset: 0;
 
 		&::before {
-			content: var(--imgc-pseudo-content);
-			top: 20px;
+			top: 50%;
 			position: absolute;
-			padding: 5px;
+			padding: 15px;
 			background: $imgc-tag-background;
 			color: $imgc-tag-color;
-			border-radius: 2px;
+			box-shadow: 0 0 10px 2px rgba(#000, 0.2);
 		}
 
 		img {
@@ -54,7 +56,9 @@ $imgc-svg-fill-color: #fff;
 
 	&__before {
 		&::before {
-			left: 20px;
+			content: $imgc-tag-before;
+			left: 0;
+			border-radius: 0 10px 10px 0;
 		}
 	}
 
@@ -68,8 +72,10 @@ $imgc-svg-fill-color: #fff;
 		);
 
 		&::before {
-			right: 20px;
+			content: $imgc-tag-after;
+			right: 0;
 			z-index: 10;
+			border-radius: 10px 0 0 10px;
 		}
 	}
 	&__thumb {
@@ -85,6 +91,7 @@ $imgc-svg-fill-color: #fff;
 		transform: translate(-50%, -50%);
 		display: grid;
 		place-items: center;
+		box-shadow: 0 0 10px 2px rgba(#000, 0.2);
 
 		svg {
 			width: 40px;
