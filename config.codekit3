@@ -78,7 +78,7 @@
       "oF" : 0
     },
     "\/src\/main.scss" : {
-      "aP" : 0,
+      "aP" : 1,
       "bl" : 0,
       "co" : 0,
       "dP" : 10,
@@ -86,11 +86,11 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 0,
-      "oAP" : "\/src\/main.css",
-      "oF" : 0,
-      "oS" : 0,
+      "oAP" : "\/dist\/assets\/css\/imageCompare.css",
+      "oF" : 2,
+      "oS" : 3,
       "pg" : 0,
-      "sct" : 0
+      "sct" : 1
     },
     "\/src\/source.js" : {
       "bF" : 0,
@@ -112,7 +112,7 @@
   },
   "projectAttributes" : {
     "creationDate" : 698757609.54898095,
-    "displayValue" : "image-compare-new",
+    "displayValue" : "image-compare",
     "displayValueWasSetByUser" : 0,
     "iconImageName" : "brackets-peach",
     "iconImageWasSetByUser" : 0

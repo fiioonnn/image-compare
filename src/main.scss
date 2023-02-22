@@ -39,6 +39,7 @@ $imgc-tag-after: "After";
 
 		&::before {
 			top: 50%;
+			transform: translateY(-50%);
 			position: absolute;
 			padding: 15px;
 			background: $imgc-tag-background;
